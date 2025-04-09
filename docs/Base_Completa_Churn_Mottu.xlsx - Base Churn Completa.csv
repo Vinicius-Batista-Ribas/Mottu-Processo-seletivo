@@ -1,0 +1,501 @@
+Cliente_ID,Idade,Tempo_de_Contrato (meses),Região,Profissão,Histórico_de_Pagamento,Frequência_de_Manutenção,NPS (Satisfação do Cliente),Tempo_de_Resposta_Atendimento (min),Motivo_do_Churn,Mês_do_Churn
+1,46,16,Norte,Entregador de App,Pontual,Bimestral,9,25,Problemas financeiros,Ago
+2,32,13,Nordeste,CLT,Inadimplente Frequente,Bimestral,8,52,Custo do plano,Jan
+3,25,1,Nordeste,Entregador de App,Pontual,Trimestral,4,33,Problemas financeiros,Jan
+4,38,22,Sudeste,Mototaxista,Pontual,Bimestral,8,9,Problemas financeiros,Jul
+5,36,20,Centro-Oeste,Autônomo,Pontual,Nenhuma,1,53,Qualidade da moto,Ago
+6,40,17,Sul,Entregador de App,Atrasos Ocasional,Mensal,2,14,Qualidade da moto,Out
+7,28,7,Nordeste,Mototaxista,Atrasos Ocasional,Nenhuma,6,32,Custo do plano,Fev
+8,28,13,Norte,CLT,Atrasos Ocasional,Nenhuma,6,25,Outros,Jul
+9,41,4,Centro-Oeste,Entregador de App,Pontual,Mensal,5,54,Custo do plano,Mar
+10,53,4,Nordeste,Autônomo,Pontual,Bimestral,5,11,Outros,Fev
+11,41,6,Sul,Mototaxista,Pontual,Bimestral,1,7,Outros,Jun
+12,20,19,Centro-Oeste,Mototaxista,Pontual,Mensal,9,49,Atendimento ao cliente,Fev
+13,39,12,Sudeste,Mototaxista,Pontual,Bimestral,5,51,Mudança de cidade,Mar
+14,19,22,Nordeste,Entregador de App,Inadimplente Frequente,Mensal,3,24,Custo do plano,Abr
+15,41,7,Nordeste,CLT,Inadimplente Frequente,Mensal,2,23,Problemas financeiros,Abr
+16,47,10,Nordeste,CLT,Inadimplente Frequente,Nenhuma,1,39,Falta de manutenção preventiva,Fev
+17,19,19,Centro-Oeste,Mototaxista,Atrasos Ocasional,Mensal,0,8,Problemas financeiros,Fev
+18,38,7,Norte,Autônomo,Pontual,Nenhuma,4,9,Atendimento ao cliente,Mar
+19,50,3,Nordeste,Mototaxista,Pontual,Bimestral,1,5,Custo do plano,Jan
+20,29,13,Nordeste,Entregador de App,Pontual,Nenhuma,1,8,Problemas financeiros,Set
+21,39,13,Nordeste,Mototaxista,Atrasos Ocasional,Trimestral,6,16,Problemas financeiros,Abr
+22,42,18,Nordeste,Mototaxista,Pontual,Mensal,7,31,Outros,Abr
+23,44,20,Centro-Oeste,Mototaxista,Pontual,Trimestral,9,46,Atendimento ao cliente,Mai
+24,45,8,Sudeste,Autônomo,Pontual,Mensal,7,27,Problemas financeiros,Set
+25,33,9,Sudeste,Entregador de App,Pontual,Bimestral,3,29,Custo do plano,Nov
+26,32,7,Nordeste,Entregador de App,Atrasos Ocasional,Nenhuma,0,25,Atendimento ao cliente,Out
+27,20,1,Sul,Entregador de App,Atrasos Ocasional,Mensal,6,56,Qualidade da moto,Out
+28,54,3,Sudeste,Entregador de App,Pontual,Bimestral,0,28,Outros,Jul
+29,24,13,Centro-Oeste,Autônomo,Inadimplente Frequente,Trimestral,3,29,Custo do plano,Set
+30,38,17,Nordeste,Mototaxista,Atrasos Ocasional,Nenhuma,7,49,Qualidade da moto,Ago
+31,26,1,Centro-Oeste,Mototaxista,Pontual,Trimestral,1,59,Falta de manutenção preventiva,Mar
+32,35,6,Sul,Entregador de App,Pontual,Mensal,5,50,Outros,Mar
+33,21,21,Nordeste,Mototaxista,Pontual,Trimestral,5,36,Problemas financeiros,Abr
+34,42,6,Sudeste,Entregador de App,Pontual,Mensal,8,59,Problemas financeiros,Dez
+35,31,12,Norte,Entregador de App,Inadimplente Frequente,Trimestral,4,36,Problemas financeiros,Ago
+36,26,13,Norte,Autônomo,Pontual,Nenhuma,9,9,Custo do plano,Out
+37,43,13,Sudeste,Autônomo,Atrasos Ocasional,Trimestral,3,40,Atendimento ao cliente,Mai
+38,19,15,Sudeste,Entregador de App,Pontual,Nenhuma,4,50,Atendimento ao cliente,Jun
+39,37,21,Norte,Entregador de App,Pontual,Mensal,9,46,Outros,Fev
+40,45,16,Sul,Entregador de App,Pontual,Trimestral,4,53,Falta de manutenção preventiva,Mar
+41,24,22,Nordeste,Entregador de App,Pontual,Nenhuma,7,46,Problemas financeiros,Nov
+42,25,21,Norte,Mototaxista,Pontual,Mensal,9,43,Problemas financeiros,Ago
+43,52,11,Nordeste,Entregador de App,Inadimplente Frequente,Nenhuma,7,20,Qualidade da moto,Mai
+44,31,5,Sul,Mototaxista,Pontual,Mensal,1,37,Qualidade da moto,Nov
+45,34,4,Nordeste,Entregador de App,Atrasos Ocasional,Trimestral,6,53,Custo do plano,Mar
+46,53,3,Nordeste,Entregador de App,Pontual,Nenhuma,7,25,Outros,Dez
+47,21,19,Sudeste,Entregador de App,Pontual,Trimestral,5,13,Problemas financeiros,Mai
+48,19,20,Centro-Oeste,Entregador de App,Pontual,Mensal,4,10,Atendimento ao cliente,Mai
+49,23,18,Sudeste,Entregador de App,Pontual,Trimestral,8,55,Falta de manutenção preventiva,Abr
+50,21,15,Nordeste,Entregador de App,Pontual,Bimestral,2,49,Qualidade da moto,Fev
+51,46,9,Nordeste,Autônomo,Pontual,Nenhuma,9,39,Problemas financeiros,Fev
+52,35,17,Sudeste,Entregador de App,Pontual,Bimestral,3,43,Qualidade da moto,Set
+53,43,14,Norte,CLT,Pontual,Bimestral,8,26,Problemas financeiros,Nov
+54,51,15,Sudeste,Entregador de App,Pontual,Trimestral,5,45,Outros,Out
+55,27,1,Sul,Autônomo,Pontual,Bimestral,7,58,Problemas financeiros,Fev
+56,53,21,Norte,Mototaxista,Inadimplente Frequente,Trimestral,6,9,Qualidade da moto,Ago
+57,31,22,Sudeste,Autônomo,Atrasos Ocasional,Trimestral,1,46,Atendimento ao cliente,Fev
+58,48,22,Nordeste,Autônomo,Pontual,Nenhuma,2,27,Outros,Jan
+59,32,3,Sudeste,Mototaxista,Pontual,Trimestral,0,21,Problemas financeiros,Set
+60,25,16,Sudeste,Mototaxista,Inadimplente Frequente,Bimestral,8,16,Problemas financeiros,Jul
+61,31,23,Sudeste,Mototaxista,Atrasos Ocasional,Mensal,6,27,Problemas financeiros,Jan
+62,40,11,Sudeste,Mototaxista,Pontual,Mensal,0,20,Problemas financeiros,Jan
+63,38,12,Centro-Oeste,Entregador de App,Atrasos Ocasional,Mensal,2,7,Problemas financeiros,Dez
+64,33,10,Sudeste,Entregador de App,Pontual,Mensal,3,34,Custo do plano,Jan
+65,35,16,Sudeste,Mototaxista,Pontual,Trimestral,3,26,Problemas financeiros,Jun
+66,41,8,Sul,Mototaxista,Atrasos Ocasional,Trimestral,4,13,Problemas financeiros,Jul
+67,43,6,Sudeste,Autônomo,Pontual,Bimestral,2,33,Mudança de cidade,Fev
+68,42,12,Centro-Oeste,Mototaxista,Inadimplente Frequente,Nenhuma,2,51,Qualidade da moto,Mar
+69,46,21,Sul,CLT,Atrasos Ocasional,Nenhuma,0,41,Problemas financeiros,Mai
+70,32,8,Sudeste,Entregador de App,Pontual,Nenhuma,6,27,Problemas financeiros,Out
+71,18,4,Centro-Oeste,Entregador de App,Pontual,Trimestral,9,17,Outros,Jul
+72,42,8,Sudeste,Entregador de App,Pontual,Bimestral,0,36,Problemas financeiros,Set
+73,24,18,Sudeste,Entregador de App,Pontual,Bimestral,1,50,Outros,Dez
+74,26,5,Sudeste,Autônomo,Atrasos Ocasional,Mensal,3,56,Falta de manutenção preventiva,Out
+75,41,9,Sudeste,Entregador de App,Pontual,Bimestral,3,51,Problemas financeiros,Jun
+76,18,4,Centro-Oeste,Autônomo,Pontual,Nenhuma,4,52,Outros,Jun
+77,25,22,Nordeste,Entregador de App,Atrasos Ocasional,Nenhuma,1,27,Problemas financeiros,Ago
+78,41,17,Sudeste,Mototaxista,Pontual,Mensal,3,49,Problemas financeiros,Set
+79,28,9,Nordeste,Mototaxista,Atrasos Ocasional,Bimestral,0,21,Mudança de cidade,Jul
+80,34,1,Centro-Oeste,Entregador de App,Pontual,Nenhuma,1,59,Custo do plano,Set
+81,25,21,Sudeste,Mototaxista,Inadimplente Frequente,Mensal,0,44,Atendimento ao cliente,Jan
+82,52,20,Norte,Entregador de App,Pontual,Bimestral,9,25,Problemas financeiros,Jun
+83,52,13,Sudeste,Entregador de App,Pontual,Nenhuma,9,6,Qualidade da moto,Abr
+84,50,16,Centro-Oeste,Entregador de App,Pontual,Bimestral,3,41,Falta de manutenção preventiva,Fev
+85,22,13,Norte,Entregador de App,Pontual,Mensal,3,10,Problemas financeiros,Fev
+86,45,14,Centro-Oeste,Entregador de App,Atrasos Ocasional,Bimestral,6,48,Problemas financeiros,Ago
+87,24,3,Norte,Mototaxista,Atrasos Ocasional,Nenhuma,9,22,Problemas financeiros,Jul
+88,26,6,Sudeste,Mototaxista,Atrasos Ocasional,Trimestral,8,34,Problemas financeiros,Abr
+89,25,18,Sul,Mototaxista,Pontual,Mensal,8,26,Mudança de cidade,Jun
+90,29,19,Sudeste,Entregador de App,Pontual,Bimestral,4,58,Qualidade da moto,Jul
+91,51,5,Nordeste,Mototaxista,Pontual,Bimestral,9,37,Outros,Mar
+92,50,15,Sudeste,Entregador de App,Pontual,Trimestral,0,34,Qualidade da moto,Set
+93,40,2,Sul,Entregador de App,Atrasos Ocasional,Trimestral,0,21,Custo do plano,Out
+94,41,10,Sudeste,Autônomo,Pontual,Mensal,5,47,Problemas financeiros,Out
+95,54,18,Sul,Entregador de App,Pontual,Nenhuma,1,36,Qualidade da moto,Ago
+96,52,13,Norte,Mototaxista,Pontual,Mensal,7,46,Problemas financeiros,Jul
+97,39,5,Sul,Mototaxista,Atrasos Ocasional,Bimestral,8,55,Problemas financeiros,Jan
+98,44,23,Centro-Oeste,Entregador de App,Atrasos Ocasional,Mensal,3,18,Atendimento ao cliente,Abr
+99,52,1,Centro-Oeste,Entregador de App,Atrasos Ocasional,Bimestral,4,14,Outros,Fev
+100,18,22,Norte,Entregador de App,Pontual,Bimestral,7,51,Custo do plano,Dez
+101,52,1,Sul,Autônomo,Pontual,Bimestral,2,55,Problemas financeiros,Fev
+102,54,18,Centro-Oeste,Entregador de App,Atrasos Ocasional,Mensal,4,40,Problemas financeiros,Fev
+103,31,15,Norte,Entregador de App,Atrasos Ocasional,Trimestral,2,38,Problemas financeiros,Nov
+104,20,17,Norte,Entregador de App,Pontual,Mensal,9,13,Atendimento ao cliente,Dez
+105,18,11,Nordeste,Mototaxista,Atrasos Ocasional,Trimestral,2,46,Falta de manutenção preventiva,Out
+106,22,21,Sudeste,Entregador de App,Atrasos Ocasional,Nenhuma,2,32,Outros,Jan
+107,43,22,Sudeste,Entregador de App,Atrasos Ocasional,Bimestral,6,15,Problemas financeiros,Jan
+108,31,17,Nordeste,Mototaxista,Atrasos Ocasional,Bimestral,6,18,Atendimento ao cliente,Mai
+109,44,13,Sul,CLT,Pontual,Bimestral,6,43,Qualidade da moto,Fev
+110,26,1,Centro-Oeste,Entregador de App,Pontual,Mensal,9,59,Custo do plano,Jan
+111,32,2,Centro-Oeste,Entregador de App,Pontual,Bimestral,7,51,Atendimento ao cliente,Jun
+112,32,9,Nordeste,Entregador de App,Atrasos Ocasional,Trimestral,4,58,Custo do plano,Dez
+113,43,3,Norte,Mototaxista,Atrasos Ocasional,Trimestral,4,23,Custo do plano,Abr
+114,30,1,Sul,Entregador de App,Atrasos Ocasional,Mensal,3,58,Problemas financeiros,Set
+115,49,21,Centro-Oeste,Mototaxista,Pontual,Nenhuma,6,19,Falta de manutenção preventiva,Set
+116,49,16,Norte,Autônomo,Atrasos Ocasional,Bimestral,9,32,Problemas financeiros,Abr
+117,21,23,Sul,Autônomo,Atrasos Ocasional,Nenhuma,3,28,Custo do plano,Set
+118,47,6,Sudeste,Entregador de App,Atrasos Ocasional,Trimestral,1,12,Qualidade da moto,Mar
+119,54,17,Centro-Oeste,Autônomo,Atrasos Ocasional,Trimestral,3,47,Atendimento ao cliente,Fev
+120,40,5,Sudeste,Mototaxista,Atrasos Ocasional,Mensal,7,13,Outros,Set
+121,32,5,Nordeste,Mototaxista,Pontual,Mensal,8,51,Outros,Fev
+122,46,6,Centro-Oeste,Entregador de App,Pontual,Nenhuma,2,37,Mudança de cidade,Dez
+123,53,3,Sudeste,CLT,Pontual,Mensal,6,37,Atendimento ao cliente,Mar
+124,30,21,Centro-Oeste,Entregador de App,Pontual,Nenhuma,8,23,Falta de manutenção preventiva,Ago
+125,49,23,Sudeste,Entregador de App,Atrasos Ocasional,Bimestral,3,7,Atendimento ao cliente,Jun
+126,24,5,Norte,Entregador de App,Atrasos Ocasional,Mensal,9,14,Mudança de cidade,Fev
+127,39,21,Nordeste,Mototaxista,Pontual,Mensal,2,44,Qualidade da moto,Jan
+128,45,5,Norte,Entregador de App,Pontual,Mensal,4,51,Outros,Set
+129,19,10,Centro-Oeste,Entregador de App,Atrasos Ocasional,Nenhuma,0,46,Outros,Nov
+130,23,10,Nordeste,Entregador de App,Pontual,Bimestral,2,5,Falta de manutenção preventiva,Nov
+131,45,19,Sul,Entregador de App,Pontual,Bimestral,7,33,Problemas financeiros,Jul
+132,45,17,Norte,Mototaxista,Pontual,Bimestral,7,54,Problemas financeiros,Out
+133,37,21,Sudeste,Mototaxista,Pontual,Mensal,3,38,Mudança de cidade,Set
+134,47,14,Nordeste,Entregador de App,Pontual,Bimestral,1,55,Problemas financeiros,Out
+135,28,9,Sudeste,Entregador de App,Pontual,Mensal,7,17,Mudança de cidade,Jul
+136,45,14,Sudeste,Mototaxista,Pontual,Nenhuma,7,58,Qualidade da moto,Set
+137,42,1,Centro-Oeste,Entregador de App,Atrasos Ocasional,Bimestral,9,5,Qualidade da moto,Nov
+138,50,19,Sul,Entregador de App,Pontual,Bimestral,3,38,Outros,Mai
+139,18,13,Sudeste,CLT,Atrasos Ocasional,Bimestral,2,33,Atendimento ao cliente,Nov
+140,44,13,Nordeste,Mototaxista,Pontual,Bimestral,1,52,Atendimento ao cliente,Ago
+141,30,4,Sul,Entregador de App,Pontual,Nenhuma,8,51,Atendimento ao cliente,Fev
+142,20,1,Sudeste,Mototaxista,Atrasos Ocasional,Bimestral,0,17,Qualidade da moto,Jan
+143,23,17,Nordeste,Entregador de App,Pontual,Mensal,6,52,Falta de manutenção preventiva,Mai
+144,25,8,Norte,Mototaxista,Pontual,Trimestral,4,53,Problemas financeiros,Ago
+145,44,2,Sul,Entregador de App,Pontual,Mensal,7,57,Outros,Nov
+146,26,8,Sul,Entregador de App,Atrasos Ocasional,Mensal,3,33,Outros,Fev
+147,54,7,Centro-Oeste,Entregador de App,Pontual,Nenhuma,6,43,Problemas financeiros,Nov
+148,50,2,Sudeste,CLT,Pontual,Trimestral,4,28,Custo do plano,Nov
+149,41,22,Centro-Oeste,Autônomo,Atrasos Ocasional,Nenhuma,4,30,Atendimento ao cliente,Fev
+150,32,22,Sudeste,Entregador de App,Pontual,Bimestral,8,21,Problemas financeiros,Nov
+151,49,3,Nordeste,Entregador de App,Atrasos Ocasional,Bimestral,8,11,Outros,Dez
+152,49,18,Sudeste,Autônomo,Atrasos Ocasional,Mensal,8,17,Problemas financeiros,Out
+153,41,12,Sudeste,Entregador de App,Inadimplente Frequente,Mensal,5,9,Problemas financeiros,Out
+154,29,1,Centro-Oeste,Entregador de App,Pontual,Nenhuma,5,30,Atendimento ao cliente,Dez
+155,19,22,Nordeste,CLT,Atrasos Ocasional,Bimestral,4,53,Atendimento ao cliente,Ago
+156,20,12,Nordeste,Entregador de App,Pontual,Nenhuma,8,7,Atendimento ao cliente,Abr
+157,54,5,Sudeste,Mototaxista,Pontual,Trimestral,9,11,Falta de manutenção preventiva,Nov
+158,34,17,Sudeste,CLT,Pontual,Mensal,7,53,Atendimento ao cliente,Ago
+159,19,16,Centro-Oeste,Entregador de App,Atrasos Ocasional,Bimestral,6,43,Atendimento ao cliente,Ago
+160,19,15,Sudeste,Entregador de App,Pontual,Trimestral,6,57,Problemas financeiros,Abr
+161,45,23,Sul,Entregador de App,Pontual,Mensal,5,5,Qualidade da moto,Out
+162,40,15,Sudeste,Autônomo,Pontual,Nenhuma,4,53,Problemas financeiros,Jan
+163,54,5,Sul,Autônomo,Atrasos Ocasional,Bimestral,3,21,Problemas financeiros,Dez
+164,49,21,Centro-Oeste,Autônomo,Atrasos Ocasional,Mensal,2,47,Atendimento ao cliente,Abr
+165,50,14,Sudeste,Entregador de App,Atrasos Ocasional,Trimestral,2,29,Problemas financeiros,Fev
+166,18,2,Centro-Oeste,Autônomo,Pontual,Nenhuma,5,7,Problemas financeiros,Jun
+167,36,11,Sudeste,CLT,Pontual,Mensal,3,19,Problemas financeiros,Jan
+168,19,19,Sudeste,Mototaxista,Atrasos Ocasional,Nenhuma,5,33,Outros,Set
+169,43,7,Norte,CLT,Pontual,Mensal,2,57,Outros,Dez
+170,49,6,Nordeste,Autônomo,Pontual,Trimestral,3,47,Atendimento ao cliente,Nov
+171,23,2,Nordeste,Mototaxista,Atrasos Ocasional,Trimestral,8,36,Outros,Fev
+172,49,6,Centro-Oeste,Mototaxista,Inadimplente Frequente,Bimestral,4,30,Falta de manutenção preventiva,Fev
+173,21,18,Nordeste,Entregador de App,Atrasos Ocasional,Bimestral,6,20,Atendimento ao cliente,Nov
+174,28,2,Centro-Oeste,Entregador de App,Atrasos Ocasional,Trimestral,9,29,Problemas financeiros,Dez
+175,34,18,Sudeste,Mototaxista,Inadimplente Frequente,Bimestral,1,58,Falta de manutenção preventiva,Jun
+176,41,15,Norte,Entregador de App,Pontual,Trimestral,4,32,Custo do plano,Jul
+177,22,19,Centro-Oeste,Autônomo,Pontual,Mensal,8,13,Atendimento ao cliente,Abr
+178,51,2,Sul,CLT,Inadimplente Frequente,Nenhuma,2,5,Falta de manutenção preventiva,Dez
+179,23,20,Norte,Autônomo,Pontual,Trimestral,8,33,Atendimento ao cliente,Set
+180,39,6,Sudeste,Entregador de App,Atrasos Ocasional,Nenhuma,5,26,Custo do plano,Abr
+181,28,1,Norte,Entregador de App,Pontual,Mensal,3,20,Outros,Abr
+182,33,15,Nordeste,Entregador de App,Pontual,Trimestral,6,45,Qualidade da moto,Nov
+183,50,23,Sudeste,Mototaxista,Atrasos Ocasional,Trimestral,7,55,Custo do plano,Jan
+184,26,10,Sudeste,Autônomo,Inadimplente Frequente,Bimestral,5,48,Qualidade da moto,Abr
+185,23,19,Sudeste,CLT,Atrasos Ocasional,Bimestral,4,55,Custo do plano,Ago
+186,33,17,Nordeste,Entregador de App,Pontual,Mensal,5,58,Falta de manutenção preventiva,Fev
+187,46,5,Centro-Oeste,CLT,Atrasos Ocasional,Trimestral,4,45,Problemas financeiros,Fev
+188,20,4,Centro-Oeste,Autônomo,Pontual,Bimestral,7,11,Custo do plano,Nov
+189,37,10,Norte,Entregador de App,Pontual,Mensal,0,18,Problemas financeiros,Dez
+190,53,17,Nordeste,Autônomo,Pontual,Trimestral,6,33,Custo do plano,Nov
+191,36,10,Sul,Entregador de App,Pontual,Bimestral,9,23,Qualidade da moto,Dez
+192,43,17,Sudeste,Entregador de App,Pontual,Mensal,9,23,Falta de manutenção preventiva,Ago
+193,20,20,Sudeste,Mototaxista,Inadimplente Frequente,Nenhuma,1,6,Problemas financeiros,Nov
+194,36,5,Sudeste,Entregador de App,Atrasos Ocasional,Nenhuma,8,45,Atendimento ao cliente,Mai
+195,37,2,Sudeste,Mototaxista,Atrasos Ocasional,Bimestral,0,49,Problemas financeiros,Set
+196,49,6,Centro-Oeste,Mototaxista,Pontual,Mensal,9,19,Mudança de cidade,Dez
+197,24,21,Sul,Mototaxista,Inadimplente Frequente,Trimestral,5,7,Outros,Mar
+198,50,2,Sudeste,Entregador de App,Inadimplente Frequente,Bimestral,8,15,Outros,Mai
+199,35,13,Nordeste,Mototaxista,Atrasos Ocasional,Bimestral,0,57,Falta de manutenção preventiva,Jul
+200,18,11,Nordeste,Mototaxista,Pontual,Bimestral,3,50,Falta de manutenção preventiva,Fev
+201,28,11,Nordeste,Mototaxista,Pontual,Bimestral,3,34,Problemas financeiros,Jan
+202,45,16,Norte,Entregador de App,Pontual,Trimestral,8,44,Problemas financeiros,Nov
+203,42,11,Nordeste,Entregador de App,Pontual,Bimestral,4,22,Qualidade da moto,Dez
+204,40,19,Nordeste,Mototaxista,Pontual,Trimestral,4,55,Falta de manutenção preventiva,Jun
+205,48,15,Sudeste,Entregador de App,Inadimplente Frequente,Nenhuma,5,52,Outros,Fev
+206,47,23,Centro-Oeste,Mototaxista,Pontual,Bimestral,0,6,Problemas financeiros,Jan
+207,52,23,Norte,Autônomo,Pontual,Trimestral,0,36,Outros,Nov
+208,24,16,Centro-Oeste,Mototaxista,Pontual,Nenhuma,8,12,Custo do plano,Jun
+209,33,11,Sul,Mototaxista,Pontual,Bimestral,2,26,Atendimento ao cliente,Abr
+210,43,22,Sudeste,CLT,Pontual,Bimestral,3,10,Problemas financeiros,Jul
+211,19,16,Nordeste,Autônomo,Pontual,Trimestral,0,16,Problemas financeiros,Abr
+212,18,8,Norte,CLT,Pontual,Trimestral,8,51,Atendimento ao cliente,Jul
+213,29,4,Centro-Oeste,Autônomo,Atrasos Ocasional,Nenhuma,7,44,Custo do plano,Nov
+214,22,8,Sul,Entregador de App,Inadimplente Frequente,Bimestral,1,40,Problemas financeiros,Ago
+215,54,4,Centro-Oeste,Entregador de App,Pontual,Nenhuma,7,19,Atendimento ao cliente,Set
+216,49,3,Centro-Oeste,Mototaxista,Pontual,Mensal,6,32,Mudança de cidade,Mai
+217,26,3,Sul,Entregador de App,Atrasos Ocasional,Mensal,5,56,Mudança de cidade,Out
+218,52,18,Norte,Entregador de App,Pontual,Trimestral,0,53,Outros,Set
+219,36,19,Norte,Entregador de App,Pontual,Mensal,6,49,Qualidade da moto,Fev
+220,33,19,Sul,Mototaxista,Atrasos Ocasional,Mensal,9,22,Problemas financeiros,Ago
+221,20,21,Sul,Autônomo,Pontual,Bimestral,6,6,Falta de manutenção preventiva,Abr
+222,37,5,Nordeste,Autônomo,Atrasos Ocasional,Mensal,8,17,Qualidade da moto,Nov
+223,41,18,Sul,Mototaxista,Pontual,Mensal,0,49,Problemas financeiros,Jun
+224,50,10,Nordeste,Autônomo,Pontual,Nenhuma,1,58,Problemas financeiros,Dez
+225,41,22,Sul,Entregador de App,Pontual,Mensal,8,19,Qualidade da moto,Fev
+226,28,21,Norte,Autônomo,Atrasos Ocasional,Trimestral,8,24,Problemas financeiros,Out
+227,25,6,Sul,Entregador de App,Pontual,Trimestral,5,33,Problemas financeiros,Set
+228,53,1,Sudeste,CLT,Pontual,Nenhuma,5,46,Problemas financeiros,Out
+229,37,5,Sudeste,Mototaxista,Atrasos Ocasional,Mensal,3,33,Problemas financeiros,Abr
+230,52,9,Nordeste,Entregador de App,Pontual,Nenhuma,3,7,Custo do plano,Jul
+231,42,12,Centro-Oeste,Entregador de App,Pontual,Bimestral,4,23,Atendimento ao cliente,Out
+232,52,14,Nordeste,Entregador de App,Atrasos Ocasional,Trimestral,2,7,Custo do plano,Mar
+233,42,2,Nordeste,Entregador de App,Pontual,Trimestral,0,58,Problemas financeiros,Mar
+234,46,17,Sudeste,Entregador de App,Atrasos Ocasional,Nenhuma,0,18,Problemas financeiros,Ago
+235,35,14,Centro-Oeste,Mototaxista,Atrasos Ocasional,Bimestral,6,44,Atendimento ao cliente,Jul
+236,35,13,Centro-Oeste,Mototaxista,Atrasos Ocasional,Trimestral,0,59,Atendimento ao cliente,Abr
+237,19,9,Nordeste,Mototaxista,Pontual,Bimestral,0,8,Qualidade da moto,Abr
+238,52,15,Sudeste,CLT,Inadimplente Frequente,Trimestral,2,56,Problemas financeiros,Abr
+239,33,22,Sudeste,Mototaxista,Pontual,Nenhuma,9,15,Outros,Out
+240,53,15,Sul,Mototaxista,Atrasos Ocasional,Mensal,3,35,Problemas financeiros,Set
+241,50,11,Sul,Entregador de App,Pontual,Nenhuma,3,47,Qualidade da moto,Nov
+242,21,16,Sudeste,Autônomo,Pontual,Mensal,1,36,Custo do plano,Dez
+243,50,17,Sul,Entregador de App,Pontual,Mensal,0,31,Atendimento ao cliente,Jul
+244,31,4,Sudeste,CLT,Inadimplente Frequente,Mensal,2,34,Problemas financeiros,Jan
+245,38,1,Norte,Autônomo,Inadimplente Frequente,Bimestral,3,47,Qualidade da moto,Jan
+246,37,8,Sudeste,Mototaxista,Pontual,Trimestral,2,6,Falta de manutenção preventiva,Abr
+247,25,17,Sudeste,Entregador de App,Pontual,Mensal,7,53,Problemas financeiros,Dez
+248,24,3,Sudeste,Autônomo,Atrasos Ocasional,Mensal,9,13,Problemas financeiros,Jul
+249,20,20,Sul,Autônomo,Pontual,Nenhuma,0,32,Problemas financeiros,Abr
+250,34,15,Centro-Oeste,Entregador de App,Pontual,Nenhuma,1,35,Mudança de cidade,Mai
+251,50,15,Sudeste,Entregador de App,Atrasos Ocasional,Nenhuma,6,38,Problemas financeiros,Ago
+252,29,22,Sul,Autônomo,Pontual,Nenhuma,3,19,Outros,Set
+253,39,14,Centro-Oeste,Entregador de App,Inadimplente Frequente,Trimestral,7,52,Atendimento ao cliente,Fev
+254,39,23,Sudeste,CLT,Pontual,Mensal,2,29,Outros,Dez
+255,47,14,Sudeste,Entregador de App,Pontual,Bimestral,5,40,Outros,Ago
+256,25,2,Norte,Entregador de App,Pontual,Trimestral,8,12,Qualidade da moto,Fev
+257,44,13,Sudeste,Autônomo,Atrasos Ocasional,Mensal,0,13,Problemas financeiros,Dez
+258,44,14,Sudeste,Entregador de App,Pontual,Trimestral,0,41,Problemas financeiros,Jan
+259,51,19,Norte,Mototaxista,Atrasos Ocasional,Mensal,7,52,Problemas financeiros,Dez
+260,38,7,Nordeste,Entregador de App,Pontual,Bimestral,2,49,Custo do plano,Dez
+261,47,3,Nordeste,Entregador de App,Atrasos Ocasional,Bimestral,4,43,Problemas financeiros,Set
+262,50,15,Sudeste,Mototaxista,Pontual,Trimestral,0,36,Problemas financeiros,Out
+263,45,23,Norte,Mototaxista,Pontual,Trimestral,4,56,Qualidade da moto,Mai
+264,50,14,Nordeste,Mototaxista,Atrasos Ocasional,Trimestral,5,21,Outros,Dez
+265,22,11,Nordeste,Autônomo,Pontual,Mensal,7,39,Problemas financeiros,Jul
+266,36,15,Nordeste,Mototaxista,Pontual,Mensal,2,41,Problemas financeiros,Out
+267,21,13,Nordeste,Entregador de App,Atrasos Ocasional,Nenhuma,2,23,Problemas financeiros,Dez
+268,52,18,Nordeste,Entregador de App,Pontual,Trimestral,9,48,Outros,Dez
+269,34,6,Sudeste,CLT,Atrasos Ocasional,Mensal,8,33,Custo do plano,Nov
+270,45,3,Sul,Autônomo,Pontual,Nenhuma,3,11,Problemas financeiros,Abr
+271,47,19,Sudeste,Mototaxista,Atrasos Ocasional,Mensal,3,32,Problemas financeiros,Dez
+272,46,15,Sudeste,Entregador de App,Pontual,Bimestral,6,13,Problemas financeiros,Set
+273,23,23,Nordeste,Entregador de App,Pontual,Mensal,1,32,Problemas financeiros,Dez
+274,52,5,Sudeste,Autônomo,Inadimplente Frequente,Trimestral,7,10,Outros,Set
+275,54,10,Sudeste,Autônomo,Atrasos Ocasional,Trimestral,5,33,Falta de manutenção preventiva,Abr
+276,41,7,Centro-Oeste,Mototaxista,Pontual,Mensal,2,21,Qualidade da moto,Mai
+277,46,17,Nordeste,Autônomo,Pontual,Nenhuma,8,20,Mudança de cidade,Ago
+278,48,7,Sudeste,Autônomo,Atrasos Ocasional,Bimestral,4,27,Problemas financeiros,Out
+279,52,22,Sudeste,Entregador de App,Pontual,Mensal,7,35,Custo do plano,Abr
+280,50,12,Norte,Entregador de App,Atrasos Ocasional,Mensal,6,7,Mudança de cidade,Ago
+281,38,17,Centro-Oeste,Entregador de App,Atrasos Ocasional,Mensal,7,25,Problemas financeiros,Mai
+282,49,13,Sul,Entregador de App,Pontual,Mensal,6,30,Falta de manutenção preventiva,Nov
+283,40,20,Sudeste,Autônomo,Pontual,Trimestral,2,40,Problemas financeiros,Jun
+284,50,4,Norte,Entregador de App,Atrasos Ocasional,Nenhuma,1,46,Problemas financeiros,Jan
+285,20,10,Nordeste,Mototaxista,Pontual,Bimestral,6,41,Problemas financeiros,Fev
+286,35,3,Nordeste,Entregador de App,Pontual,Mensal,2,57,Qualidade da moto,Jan
+287,42,9,Sudeste,Entregador de App,Inadimplente Frequente,Mensal,2,26,Custo do plano,Jul
+288,48,13,Nordeste,Entregador de App,Pontual,Mensal,1,46,Outros,Fev
+289,20,18,Norte,Entregador de App,Atrasos Ocasional,Bimestral,3,16,Atendimento ao cliente,Fev
+290,41,15,Centro-Oeste,Mototaxista,Pontual,Trimestral,7,46,Mudança de cidade,Dez
+291,49,4,Sudeste,Entregador de App,Pontual,Mensal,0,17,Mudança de cidade,Nov
+292,39,15,Sul,Mototaxista,Pontual,Trimestral,0,15,Problemas financeiros,Jun
+293,40,22,Norte,Entregador de App,Pontual,Nenhuma,4,58,Qualidade da moto,Dez
+294,19,2,Norte,Entregador de App,Pontual,Bimestral,4,20,Problemas financeiros,Jan
+295,44,15,Sul,Entregador de App,Pontual,Nenhuma,0,12,Custo do plano,Ago
+296,19,8,Norte,Mototaxista,Atrasos Ocasional,Trimestral,5,44,Outros,Ago
+297,43,8,Norte,Mototaxista,Pontual,Trimestral,0,44,Problemas financeiros,Jun
+298,34,17,Centro-Oeste,Entregador de App,Pontual,Bimestral,4,49,Falta de manutenção preventiva,Mai
+299,50,12,Nordeste,Entregador de App,Pontual,Bimestral,8,6,Custo do plano,Jun
+300,26,19,Sudeste,Autônomo,Pontual,Mensal,4,34,Atendimento ao cliente,Jun
+301,46,10,Centro-Oeste,Entregador de App,Pontual,Bimestral,5,34,Qualidade da moto,Out
+302,43,9,Nordeste,Entregador de App,Pontual,Mensal,7,16,Problemas financeiros,Fev
+303,52,5,Centro-Oeste,Autônomo,Pontual,Trimestral,0,14,Problemas financeiros,Mar
+304,42,6,Nordeste,Mototaxista,Pontual,Mensal,1,48,Problemas financeiros,Mar
+305,41,20,Nordeste,Entregador de App,Pontual,Nenhuma,8,15,Problemas financeiros,Abr
+306,30,2,Sudeste,CLT,Atrasos Ocasional,Trimestral,2,19,Atendimento ao cliente,Jul
+307,24,13,Nordeste,Autônomo,Pontual,Bimestral,5,20,Problemas financeiros,Fev
+308,53,6,Norte,Entregador de App,Pontual,Mensal,4,21,Mudança de cidade,Nov
+309,37,5,Centro-Oeste,Mototaxista,Atrasos Ocasional,Nenhuma,1,30,Atendimento ao cliente,Abr
+310,18,1,Centro-Oeste,Mototaxista,Pontual,Nenhuma,6,6,Custo do plano,Fev
+311,25,21,Sul,Entregador de App,Atrasos Ocasional,Trimestral,3,54,Qualidade da moto,Set
+312,33,22,Nordeste,Entregador de App,Pontual,Mensal,0,16,Atendimento ao cliente,Jan
+313,31,21,Sudeste,Entregador de App,Pontual,Bimestral,3,55,Outros,Ago
+314,29,6,Sul,Mototaxista,Pontual,Mensal,5,30,Problemas financeiros,Set
+315,40,6,Sudeste,Entregador de App,Pontual,Mensal,6,27,Problemas financeiros,Mar
+316,32,23,Sudeste,Autônomo,Atrasos Ocasional,Trimestral,6,22,Falta de manutenção preventiva,Jan
+317,45,16,Sudeste,Mototaxista,Pontual,Trimestral,6,36,Problemas financeiros,Mai
+318,51,4,Sudeste,Entregador de App,Atrasos Ocasional,Trimestral,2,53,Problemas financeiros,Fev
+319,19,11,Norte,Mototaxista,Pontual,Nenhuma,5,42,Qualidade da moto,Fev
+320,49,23,Norte,Entregador de App,Pontual,Trimestral,7,51,Problemas financeiros,Abr
+321,40,9,Sudeste,Mototaxista,Pontual,Bimestral,3,7,Atendimento ao cliente,Abr
+322,39,23,Sul,Mototaxista,Pontual,Bimestral,7,42,Problemas financeiros,Jul
+323,42,3,Centro-Oeste,Entregador de App,Pontual,Nenhuma,1,7,Outros,Set
+324,39,19,Nordeste,Entregador de App,Atrasos Ocasional,Mensal,9,34,Falta de manutenção preventiva,Ago
+325,39,8,Norte,Entregador de App,Atrasos Ocasional,Nenhuma,8,5,Custo do plano,Fev
+326,23,5,Norte,Entregador de App,Pontual,Nenhuma,8,34,Atendimento ao cliente,Mar
+327,32,4,Sudeste,Entregador de App,Atrasos Ocasional,Mensal,7,49,Mudança de cidade,Nov
+328,54,6,Sudeste,Entregador de App,Inadimplente Frequente,Trimestral,9,36,Problemas financeiros,Ago
+329,50,2,Sudeste,CLT,Atrasos Ocasional,Nenhuma,9,32,Mudança de cidade,Nov
+330,25,20,Sudeste,Entregador de App,Pontual,Trimestral,0,25,Falta de manutenção preventiva,Mai
+331,22,11,Nordeste,Entregador de App,Atrasos Ocasional,Nenhuma,1,50,Falta de manutenção preventiva,Ago
+332,21,4,Norte,Mototaxista,Pontual,Nenhuma,5,17,Atendimento ao cliente,Jul
+333,23,15,Nordeste,Entregador de App,Inadimplente Frequente,Bimestral,9,31,Problemas financeiros,Abr
+334,49,6,Sudeste,CLT,Pontual,Bimestral,4,40,Qualidade da moto,Jun
+335,47,22,Norte,Mototaxista,Pontual,Nenhuma,8,11,Falta de manutenção preventiva,Jul
+336,52,17,Centro-Oeste,Autônomo,Atrasos Ocasional,Trimestral,4,26,Problemas financeiros,Mar
+337,33,6,Sudeste,Entregador de App,Pontual,Mensal,1,14,Falta de manutenção preventiva,Abr
+338,30,19,Sudeste,Entregador de App,Inadimplente Frequente,Mensal,9,43,Problemas financeiros,Out
+339,47,2,Nordeste,Entregador de App,Inadimplente Frequente,Trimestral,3,57,Problemas financeiros,Dez
+340,36,15,Sul,Autônomo,Atrasos Ocasional,Nenhuma,8,19,Problemas financeiros,Mai
+341,34,11,Nordeste,Entregador de App,Pontual,Nenhuma,0,19,Problemas financeiros,Abr
+342,36,8,Sudeste,Entregador de App,Atrasos Ocasional,Trimestral,0,8,Atendimento ao cliente,Mar
+343,45,19,Norte,CLT,Pontual,Mensal,6,36,Problemas financeiros,Set
+344,43,13,Nordeste,Entregador de App,Pontual,Mensal,2,27,Outros,Abr
+345,54,12,Norte,Entregador de App,Atrasos Ocasional,Nenhuma,9,59,Atendimento ao cliente,Dez
+346,43,5,Norte,Entregador de App,Pontual,Mensal,1,10,Problemas financeiros,Abr
+347,40,6,Nordeste,CLT,Pontual,Mensal,8,28,Custo do plano,Mai
+348,26,22,Norte,Entregador de App,Inadimplente Frequente,Mensal,2,24,Outros,Ago
+349,29,4,Sudeste,Autônomo,Pontual,Trimestral,1,41,Falta de manutenção preventiva,Nov
+350,18,19,Norte,Autônomo,Pontual,Nenhuma,7,24,Problemas financeiros,Jun
+351,18,20,Sul,Entregador de App,Inadimplente Frequente,Mensal,9,16,Outros,Jun
+352,51,1,Sul,Mototaxista,Pontual,Bimestral,5,37,Falta de manutenção preventiva,Dez
+353,49,20,Sudeste,Entregador de App,Atrasos Ocasional,Trimestral,5,32,Problemas financeiros,Jan
+354,42,17,Norte,Entregador de App,Inadimplente Frequente,Nenhuma,9,12,Problemas financeiros,Dez
+355,18,12,Centro-Oeste,Autônomo,Inadimplente Frequente,Mensal,6,5,Atendimento ao cliente,Fev
+356,33,15,Sudeste,Autônomo,Atrasos Ocasional,Bimestral,6,41,Problemas financeiros,Out
+357,22,1,Norte,Mototaxista,Pontual,Bimestral,5,26,Mudança de cidade,Ago
+358,39,14,Nordeste,Mototaxista,Pontual,Nenhuma,3,10,Problemas financeiros,Mai
+359,46,6,Nordeste,Entregador de App,Atrasos Ocasional,Bimestral,8,25,Outros,Nov
+360,20,5,Nordeste,Entregador de App,Atrasos Ocasional,Mensal,5,36,Atendimento ao cliente,Jan
+361,29,11,Sudeste,Entregador de App,Pontual,Trimestral,3,39,Problemas financeiros,Mar
+362,43,4,Nordeste,Entregador de App,Pontual,Trimestral,2,19,Problemas financeiros,Ago
+363,33,13,Norte,Entregador de App,Pontual,Mensal,3,9,Atendimento ao cliente,Mai
+364,54,11,Nordeste,Entregador de App,Pontual,Nenhuma,2,50,Falta de manutenção preventiva,Ago
+365,39,3,Sul,Entregador de App,Atrasos Ocasional,Mensal,1,54,Falta de manutenção preventiva,Jan
+366,46,1,Nordeste,Entregador de App,Pontual,Trimestral,4,52,Problemas financeiros,Fev
+367,31,6,Norte,Mototaxista,Inadimplente Frequente,Bimestral,1,10,Problemas financeiros,Fev
+368,45,18,Norte,Autônomo,Atrasos Ocasional,Trimestral,5,29,Problemas financeiros,Mar
+369,22,10,Sudeste,Entregador de App,Pontual,Bimestral,2,50,Custo do plano,Jun
+370,47,5,Norte,CLT,Atrasos Ocasional,Nenhuma,5,44,Problemas financeiros,Out
+371,22,23,Nordeste,Autônomo,Pontual,Trimestral,9,33,Qualidade da moto,Dez
+372,29,10,Centro-Oeste,Entregador de App,Pontual,Trimestral,8,11,Atendimento ao cliente,Nov
+373,33,12,Nordeste,Autônomo,Atrasos Ocasional,Trimestral,0,44,Outros,Mar
+374,43,2,Norte,Mototaxista,Atrasos Ocasional,Trimestral,5,17,Problemas financeiros,Jun
+375,43,13,Nordeste,Mototaxista,Atrasos Ocasional,Mensal,8,42,Problemas financeiros,Mar
+376,38,8,Sul,Entregador de App,Pontual,Bimestral,3,22,Custo do plano,Abr
+377,53,2,Centro-Oeste,Mototaxista,Pontual,Nenhuma,1,6,Atendimento ao cliente,Jul
+378,50,20,Sudeste,Entregador de App,Atrasos Ocasional,Mensal,3,12,Problemas financeiros,Jan
+379,47,1,Nordeste,Mototaxista,Pontual,Trimestral,0,15,Outros,Mar
+380,54,5,Nordeste,Mototaxista,Pontual,Nenhuma,2,37,Mudança de cidade,Dez
+381,40,9,Sudeste,Mototaxista,Pontual,Mensal,9,58,Problemas financeiros,Jun
+382,27,17,Sul,Mototaxista,Atrasos Ocasional,Trimestral,8,42,Problemas financeiros,Jun
+383,22,9,Nordeste,Autônomo,Pontual,Bimestral,9,52,Atendimento ao cliente,Jan
+384,53,11,Sudeste,Entregador de App,Atrasos Ocasional,Trimestral,4,31,Falta de manutenção preventiva,Mar
+385,51,15,Nordeste,Entregador de App,Inadimplente Frequente,Mensal,5,24,Problemas financeiros,Nov
+386,48,6,Centro-Oeste,Autônomo,Pontual,Mensal,2,16,Custo do plano,Fev
+387,27,23,Nordeste,Entregador de App,Pontual,Trimestral,4,47,Custo do plano,Jun
+388,36,3,Sudeste,Entregador de App,Pontual,Nenhuma,7,35,Problemas financeiros,Jan
+389,49,17,Nordeste,Entregador de App,Atrasos Ocasional,Trimestral,5,31,Custo do plano,Jul
+390,18,5,Sudeste,Entregador de App,Pontual,Bimestral,3,36,Outros,Jan
+391,22,12,Centro-Oeste,CLT,Pontual,Mensal,1,14,Problemas financeiros,Nov
+392,21,18,Sudeste,Mototaxista,Pontual,Trimestral,8,7,Problemas financeiros,Nov
+393,33,14,Nordeste,CLT,Atrasos Ocasional,Mensal,0,49,Qualidade da moto,Out
+394,41,21,Centro-Oeste,Mototaxista,Pontual,Nenhuma,0,31,Outros,Abr
+395,33,11,Centro-Oeste,Entregador de App,Atrasos Ocasional,Nenhuma,3,39,Outros,Nov
+396,19,9,Nordeste,Entregador de App,Inadimplente Frequente,Trimestral,6,35,Qualidade da moto,Jul
+397,45,2,Centro-Oeste,Mototaxista,Pontual,Nenhuma,0,19,Falta de manutenção preventiva,Mai
+398,49,12,Norte,Entregador de App,Atrasos Ocasional,Mensal,8,20,Atendimento ao cliente,Set
+399,44,3,Nordeste,Autônomo,Pontual,Trimestral,3,17,Atendimento ao cliente,Jan
+400,37,3,Centro-Oeste,Autônomo,Atrasos Ocasional,Bimestral,2,53,Problemas financeiros,Fev
+401,41,1,Centro-Oeste,Entregador de App,Atrasos Ocasional,Nenhuma,0,39,Problemas financeiros,Out
+402,29,8,Sudeste,CLT,Atrasos Ocasional,Mensal,9,56,Problemas financeiros,Mar
+403,52,22,Nordeste,Autônomo,Pontual,Trimestral,3,15,Atendimento ao cliente,Ago
+404,50,8,Nordeste,Mototaxista,Pontual,Nenhuma,8,25,Problemas financeiros,Mai
+405,50,11,Norte,Entregador de App,Pontual,Mensal,9,55,Outros,Nov
+406,54,9,Norte,Entregador de App,Pontual,Bimestral,5,58,Problemas financeiros,Dez
+407,29,5,Sul,Mototaxista,Pontual,Trimestral,5,15,Problemas financeiros,Nov
+408,20,14,Sudeste,Entregador de App,Pontual,Bimestral,0,34,Atendimento ao cliente,Abr
+409,18,3,Sul,Entregador de App,Pontual,Mensal,9,52,Custo do plano,Mar
+410,50,21,Sul,Autônomo,Pontual,Mensal,1,57,Problemas financeiros,Jul
+411,27,5,Sudeste,Entregador de App,Atrasos Ocasional,Mensal,5,39,Problemas financeiros,Jan
+412,46,5,Nordeste,Mototaxista,Pontual,Nenhuma,1,26,Outros,Jan
+413,30,19,Centro-Oeste,CLT,Pontual,Trimestral,2,42,Problemas financeiros,Ago
+414,29,14,Sudeste,Autônomo,Pontual,Mensal,3,35,Problemas financeiros,Jul
+415,48,4,Centro-Oeste,Entregador de App,Pontual,Bimestral,4,18,Mudança de cidade,Dez
+416,19,13,Sudeste,Autônomo,Inadimplente Frequente,Bimestral,8,28,Problemas financeiros,Mar
+417,52,10,Nordeste,Entregador de App,Pontual,Mensal,3,54,Qualidade da moto,Abr
+418,40,18,Nordeste,Entregador de App,Atrasos Ocasional,Bimestral,8,53,Qualidade da moto,Fev
+419,34,8,Sudeste,Mototaxista,Inadimplente Frequente,Bimestral,9,36,Problemas financeiros,Dez
+420,43,8,Norte,Entregador de App,Atrasos Ocasional,Bimestral,2,40,Problemas financeiros,Out
+421,25,7,Nordeste,Entregador de App,Atrasos Ocasional,Trimestral,7,36,Problemas financeiros,Nov
+422,46,8,Norte,Mototaxista,Atrasos Ocasional,Mensal,0,59,Problemas financeiros,Dez
+423,43,14,Sudeste,Entregador de App,Inadimplente Frequente,Trimestral,8,19,Problemas financeiros,Jul
+424,27,19,Centro-Oeste,Entregador de App,Atrasos Ocasional,Trimestral,8,47,Falta de manutenção preventiva,Jun
+425,43,6,Sudeste,Entregador de App,Pontual,Trimestral,9,39,Qualidade da moto,Mai
+426,51,1,Centro-Oeste,Autônomo,Atrasos Ocasional,Trimestral,1,7,Qualidade da moto,Ago
+427,24,23,Centro-Oeste,Mototaxista,Pontual,Bimestral,3,20,Outros,Jun
+428,21,15,Nordeste,Entregador de App,Atrasos Ocasional,Nenhuma,7,9,Custo do plano,Jun
+429,28,1,Nordeste,Entregador de App,Pontual,Trimestral,6,25,Problemas financeiros,Dez
+430,46,17,Norte,Entregador de App,Pontual,Bimestral,0,14,Outros,Dez
+431,53,1,Norte,Entregador de App,Pontual,Nenhuma,4,23,Problemas financeiros,Out
+432,42,15,Nordeste,Autônomo,Pontual,Trimestral,6,29,Problemas financeiros,Out
+433,38,23,Centro-Oeste,Entregador de App,Pontual,Mensal,3,8,Falta de manutenção preventiva,Set
+434,53,2,Norte,Entregador de App,Pontual,Mensal,0,33,Qualidade da moto,Fev
+435,27,14,Norte,Mototaxista,Pontual,Mensal,8,23,Qualidade da moto,Jan
+436,54,21,Norte,Mototaxista,Pontual,Nenhuma,4,47,Problemas financeiros,Set
+437,26,8,Centro-Oeste,Mototaxista,Atrasos Ocasional,Trimestral,1,6,Atendimento ao cliente,Out
+438,41,8,Sudeste,Entregador de App,Pontual,Nenhuma,7,14,Problemas financeiros,Jan
+439,52,19,Sudeste,Entregador de App,Pontual,Trimestral,1,47,Outros,Dez
+440,52,7,Sudeste,Entregador de App,Atrasos Ocasional,Bimestral,2,29,Problemas financeiros,Fev
+441,53,19,Centro-Oeste,Entregador de App,Pontual,Mensal,9,24,Outros,Abr
+442,35,6,Centro-Oeste,Mototaxista,Pontual,Trimestral,0,52,Atendimento ao cliente,Set
+443,49,6,Nordeste,Autônomo,Atrasos Ocasional,Trimestral,1,23,Mudança de cidade,Mar
+444,41,3,Norte,Autônomo,Atrasos Ocasional,Nenhuma,6,27,Custo do plano,Jan
+445,40,7,Centro-Oeste,Autônomo,Pontual,Mensal,9,28,Custo do plano,Mai
+446,49,19,Sul,Entregador de App,Pontual,Bimestral,1,15,Problemas financeiros,Out
+447,54,8,Sudeste,Mototaxista,Inadimplente Frequente,Trimestral,5,50,Problemas financeiros,Jun
+448,29,10,Sudeste,Entregador de App,Atrasos Ocasional,Trimestral,2,38,Problemas financeiros,Set
+449,30,20,Nordeste,Mototaxista,Pontual,Trimestral,3,59,Mudança de cidade,Ago
+450,40,15,Nordeste,Entregador de App,Atrasos Ocasional,Trimestral,7,32,Mudança de cidade,Jan
+451,42,15,Nordeste,Entregador de App,Pontual,Mensal,2,9,Qualidade da moto,Dez
+452,52,1,Nordeste,Entregador de App,Pontual,Trimestral,9,9,Problemas financeiros,Jan
+453,47,20,Sudeste,CLT,Pontual,Trimestral,5,55,Qualidade da moto,Dez
+454,34,7,Sudeste,Entregador de App,Atrasos Ocasional,Nenhuma,0,25,Atendimento ao cliente,Ago
+455,37,4,Nordeste,Entregador de App,Pontual,Nenhuma,6,16,Qualidade da moto,Dez
+456,42,6,Centro-Oeste,Entregador de App,Atrasos Ocasional,Bimestral,7,54,Falta de manutenção preventiva,Fev
+457,39,1,Sudeste,Autônomo,Pontual,Mensal,7,8,Outros,Jul
+458,30,5,Norte,Mototaxista,Pontual,Nenhuma,2,58,Problemas financeiros,Mar
+459,36,23,Norte,Mototaxista,Pontual,Bimestral,9,53,Qualidade da moto,Jan
+460,53,1,Nordeste,Entregador de App,Atrasos Ocasional,Nenhuma,0,46,Qualidade da moto,Ago
+461,29,4,Sudeste,Mototaxista,Pontual,Mensal,8,24,Problemas financeiros,Mar
+462,36,22,Nordeste,Entregador de App,Pontual,Trimestral,5,42,Problemas financeiros,Ago
+463,29,2,Sul,Autônomo,Atrasos Ocasional,Nenhuma,8,29,Problemas financeiros,Fev
+464,26,10,Sul,Mototaxista,Pontual,Nenhuma,6,18,Outros,Mai
+465,24,5,Nordeste,Entregador de App,Inadimplente Frequente,Bimestral,0,15,Qualidade da moto,Out
+466,45,10,Sul,Entregador de App,Pontual,Trimestral,0,36,Qualidade da moto,Jun
+467,31,1,Nordeste,Entregador de App,Atrasos Ocasional,Bimestral,5,15,Outros,Set
+468,48,22,Nordeste,Entregador de App,Pontual,Mensal,4,22,Falta de manutenção preventiva,Set
+469,36,6,Sul,Entregador de App,Inadimplente Frequente,Trimestral,8,31,Problemas financeiros,Nov
+470,33,13,Sudeste,Mototaxista,Pontual,Trimestral,1,59,Atendimento ao cliente,Abr
+471,22,15,Sul,Entregador de App,Pontual,Nenhuma,7,58,Qualidade da moto,Set
+472,52,4,Sudeste,Entregador de App,Pontual,Bimestral,4,22,Falta de manutenção preventiva,Dez
+473,29,13,Norte,Entregador de App,Pontual,Mensal,1,27,Custo do plano,Out
+474,42,20,Nordeste,Entregador de App,Pontual,Mensal,9,15,Custo do plano,Jul
+475,38,15,Sudeste,Autônomo,Inadimplente Frequente,Bimestral,5,25,Problemas financeiros,Set
+476,53,8,Sul,Entregador de App,Pontual,Bimestral,9,48,Falta de manutenção preventiva,Out
+477,40,5,Sudeste,Mototaxista,Atrasos Ocasional,Trimestral,7,9,Problemas financeiros,Ago
+478,33,15,Norte,Autônomo,Atrasos Ocasional,Bimestral,3,27,Problemas financeiros,Jan
+479,31,4,Centro-Oeste,Mototaxista,Atrasos Ocasional,Nenhuma,1,45,Problemas financeiros,Mar
+480,48,12,Sul,Autônomo,Pontual,Nenhuma,4,29,Problemas financeiros,Nov
+481,22,13,Centro-Oeste,Entregador de App,Pontual,Trimestral,1,45,Problemas financeiros,Abr
+482,52,2,Norte,CLT,Atrasos Ocasional,Nenhuma,1,58,Mudança de cidade,Out
+483,40,19,Norte,Entregador de App,Inadimplente Frequente,Trimestral,5,14,Outros,Mai
+484,46,19,Centro-Oeste,Entregador de App,Pontual,Bimestral,9,26,Problemas financeiros,Jul
+485,28,4,Centro-Oeste,Mototaxista,Pontual,Mensal,8,23,Problemas financeiros,Jan
+486,35,4,Nordeste,CLT,Pontual,Bimestral,3,5,Problemas financeiros,Mar
+487,29,11,Nordeste,Autônomo,Inadimplente Frequente,Trimestral,5,11,Problemas financeiros,Dez
+488,26,5,Sul,Entregador de App,Pontual,Nenhuma,6,8,Problemas financeiros,Nov
+489,27,20,Nordeste,Entregador de App,Pontual,Bimestral,5,5,Outros,Set
+490,34,11,Sudeste,CLT,Atrasos Ocasional,Nenhuma,7,19,Problemas financeiros,Jun
+491,24,10,Nordeste,Entregador de App,Pontual,Trimestral,3,44,Qualidade da moto,Set
+492,30,8,Sudeste,Autônomo,Pontual,Mensal,0,16,Problemas financeiros,Ago
+493,26,6,Centro-Oeste,Autônomo,Atrasos Ocasional,Nenhuma,6,26,Mudança de cidade,Ago
+494,44,6,Norte,Entregador de App,Inadimplente Frequente,Bimestral,2,26,Falta de manutenção preventiva,Jan
+495,19,8,Nordeste,Entregador de App,Pontual,Bimestral,5,54,Outros,Set
+496,22,23,Sudeste,Entregador de App,Pontual,Trimestral,1,51,Falta de manutenção preventiva,Out
+497,46,15,Norte,Entregador de App,Pontual,Mensal,8,21,Problemas financeiros,Dez
+498,54,14,Nordeste,Autônomo,Pontual,Trimestral,0,33,Problemas financeiros,Jan
+499,36,11,Centro-Oeste,Entregador de App,Atrasos Ocasional,Bimestral,5,50,Custo do plano,Out
+500,25,12,Sudeste,Autônomo,Pontual,Bimestral,5,18,Qualidade da moto,Ago
